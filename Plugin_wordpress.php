@@ -15,7 +15,7 @@ add_action('template_redirect', function() {
     if (is_admin()) return;
 
     // 👉 URL API REMOTA (modifica con il tuo server)
-    $remote_api = "https://apps.dmfactory.cloud/geoip/api.php"; //qui inserisci l'url del server api
+    $remote_api = "https://tuosito.com/geoip/api.php"; //qui inserisci l'url del server api
     $domain_access= "Ciao.it"; //inserisci il dominio del sito 
 
     // IP del visitatore
